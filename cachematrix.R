@@ -35,3 +35,25 @@ cacheSolve <- function(x, ...) {
 
 }
  
+#Input & OUTPUT
+#> x <- matrix(1:4,2,2)
+#> x
+ #    [,1] [,2]
+#[1,]    1    3
+#[2,]    2    4
+#> m=makeCacheMatrix(x)
+#> m$get()
+ #    [,1] [,2]
+#[1,]    1    3
+#[2,]    2    4
+#> cacheSolve(m)
+ #    [,1] [,2]
+#[1,]   -2  1.5
+#[2,]    1 -0.5
+#> cacheSolve(m)
+#Getting cache Data     <This shows that data was fetched from cache.>
+#    [,1] [,2]
+#[1,]   -2  1.5
+#[2,]    1 -0.5
+
+ 
