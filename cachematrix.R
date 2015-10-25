@@ -34,3 +34,4 @@ cacheSolve <- function(x, ...) {
 	m							#return the calculated INVERSE.
 
 }
+ 
